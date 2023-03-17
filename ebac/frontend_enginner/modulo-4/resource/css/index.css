@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerBlog{
+    margin: 0 auto;
+    background-color: rgb(102, 104, 95);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+/* Blog Header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 0;
+    margin: 0 14rem;
+}
+
+h1{
+    color: white;
+}
+
+a h1:hover{
+    color: rgb(0, 195, 255);
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+}
+
+li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+header a:hover{
+    color: rgb(0, 195, 255);
+}
+
+/* Sports Section */
+#sports{
+    background-color: rgba(62, 216, 165, 0.2);
+    margin-top: 0;
+    padding-bottom: 2rem;
+}
+
+#sports h2{
+    position: relative;
+    top: 3.71125rem;
+    margin: 0 14rem;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+#sports h3{
+    font-size: 1.5rem;
+}
+
+#sports p{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.articles{
+    position: relative;
+    top: 3.71125rem;
+    margin: 0 14rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article{
+    width: 31%;
+    margin: 1rem 0 3.71125rem;
+}
+
+.articles article img{
+    width: 100%;
+}
+
+article a{
+    background-color: rgb(102, 104, 95);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+article a:hover{
+    color: rgb(0, 195, 255);
+}
+
+time{
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 0.4rem 0;
+}
+
+/* Economic Section */
+
+#economic{
+    background-color: rgba(216, 206, 62, 0.2);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#economic h2{
+    position: relative;
+    top: 3.71125rem;
+    margin: 0 14rem;
+    font-size: 2rem;
+}
+
+#economic h3{
+    font-size: 1.5rem;
+}
+
+#economic p{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+#economic .articles{
+    margin: 0 14rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+#economic .articles article{
+    width: 31%;
+    margin: 1rem 0;
+}
+
+#economic .articles article img{
+    width: 100%;
+}
+
+#economic time{
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 0.4rem 0;
+}
+
+/*entertainment section*/
+
+#entertainment{
+    background-color: rgba(62, 77, 216, 0.2);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#entertainment h2{
+    position: relative;
+    top: 3.71125rem;
+    margin: 0 14rem;
+    font-size: 2rem;
+}
+
+#entertainment h3{
+    font-size: 1.5rem;
+}
+
+#entertainment p{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+#entertainment .articles{
+    margin: 0 14rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+#entertainment .articles article{
+    width: 31%;
+    margin: 1rem 0;
+}
+
+#entertainment .articles article img{
+    width: 100%;
+}
+
+#entertainment time{
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 0.4rem 0;
+}
+
+/* technology section */
+
+#technology{
+    background-color: rgba(134, 62, 216, 0.2);
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+
+#technology h2{
+    position: relative;
+    top: 3.71125rem;
+    margin: 0 14rem;
+    font-size: 2rem;
+}
+
+#technology h3{
+    font-size: 1.5rem;
+}
+
+#technology p{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+#technology .articles{
+    margin: 0 14rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#technology .articles article{
+    width: 31%;
+    margin: 1rem 0;
+}
+
+#technology .articles article img{
+    width: 100%;
+}
+
+#technology time{
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 0.4rem 0;
+}
